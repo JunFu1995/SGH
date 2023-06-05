@@ -1,0 +1,3 @@
+nohup python train_test_IQA.py --dataset Waterloo --netFile HyperIQA --gpuid 0 > ./log/HyperIQA_Waterloo.log &
+nohup python train_test_IQA.py --dataset QADS --netFile HyperIQA --gpuid 1 > ./log/HyperIQA_QADS.log &
+nohup python train_test_IQA.py --dataset CVIU --netFile HyperIQA --gpuid 2 > ./log/HyperIQA_CVIU.log &
