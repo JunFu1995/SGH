@@ -6,6 +6,10 @@
 
 <img src="img/framework.png" width="800px"/>
 
+## TODO
+- [x] ~~Code release~~
+- [ ] Upload datasets 
+
 
 ## Introduction
 
@@ -19,10 +23,6 @@
 * `train_test_IQA.py`: setup training and test 
 
 
-## TODO
-- [x] ~~Code release~~
-- [ ] Upload datasets 
-
 
 ## Train and Test
 ```
@@ -34,7 +34,7 @@ Some mandatory options:
 * `--gpuid`: int, gpu device 
 * `--batch_size`: int, Batch size, 64.
 
-### Acknowledgement
+## Acknowledgement
 This project is based on [HyperIQA](https://github.com/SSL92/hyperIQA). Thanks for the awesome work.
 
 ## Citation
