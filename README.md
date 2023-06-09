@@ -23,8 +23,13 @@
 
 ## Train and Test
 ```
-python train_test_IQA.py --dataset ['CVIU' or 'QADS' or 'Waterloo'] --netFile ['DBCNN' or 'HyperIQA' or 'CNNIQA' or 'Resnet50' or 'JCSAN'] --gpuid [0/1/2...] --batch_size 64
+python train_test_IQA.py --dataset xxx --netFile xxx --gpuid x --batch_size 64
 ```
+Some mandatory options:
+* `--dataset`: string, Training and testing dataset, support datasets: 'CVIU' | 'QADS'| 'Waterloo'.
+* `--netFile`: string, IQA model, support models: 'DBCNN' | 'HyperIQA' | 'CNNIQA' | 'Resnet50' | 'JCSAN' | 'DeepSRQ'.
+* `--gpuid`: int, gpu device 
+* `--batch_size`: int, Batch size, 64.
 
 ### Acknowledgement
 This project is based on [HyperIQA](https://github.com/SSL92/hyperIQA). Thanks for the awesome work.
