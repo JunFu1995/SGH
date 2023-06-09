@@ -2,4 +2,4 @@
 
 [Paper](https://arxiv.org/abs/2306.02398)
 
-<img src="img/framework.pdf" width="800px"/>
+<img src="img/framework.png" width="800px"/>
