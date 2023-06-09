@@ -1,4 +1,5 @@
-# SGH
-Scale Guided Hypernetwork for Blind Super-Resolution Image Quality Assessment
+## Scale Guided Hypernetwork for Blind Super-Resolution Image Quality Assessment
 
-# Abstract 
+[Paper](https://arxiv.org/abs/2306.02398)
+
+<img src="img/framework.pdf" width="800px"/>
