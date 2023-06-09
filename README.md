@@ -47,5 +47,5 @@ Please cite the following paper if you use this repository in your reseach.
   year={2023}
 }
 ```
-# Contact
+## Contact
 For any questions, feel free to contact: `fujun@mail.ustc.edu.cn`
