@@ -2,6 +2,8 @@
 
 [Paper](https://arxiv.org/abs/2306.02398)
 
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=JunFu1995/SGH)
+
 <img src="img/framework.png" width="800px"/>
 
 
