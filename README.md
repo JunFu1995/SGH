@@ -5,20 +5,21 @@
 <img src="img/framework.png" width="800px"/>
 
 
-## Directory Specification
-```
--log\ save training log
--nets\ define iqa model 
--save\ save model 
--datasets.py define datasets 
--datasets_deepsrq.py define datasets for deepsrq
--engine.py train engine
--train_test_IQA setup training and test 
+## Introduction
+
+* `log`: save training log
+* `nets`: define iqa model 
+* `save`: save model 
+* `nets`: define iqa model 
+* `datasets.py`: define datasets 
+* `datasets_deepsrq.py`: define datasets for deepsrq
+* `engine.py`: training and test engine
+* `train_test_IQA.py`: setup training and test 
 ```
 
 ## TODO
 - [x] ~~Code release~~
-- [ ] update datasets
+- [ ] Upload datasets 
 
 
 ## Train and Test
