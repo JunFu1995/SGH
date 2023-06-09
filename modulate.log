@@ -1,9 +1,0 @@
-nohup python train_test_IQA.py --dataset Waterloo --netFile CNNIQA --gpuid 0 > ./log/CNNIQA_Waterloo.log &
-nohup python train_test_IQA.py --dataset QADS --netFile CNNIQA --gpuid 1 > ./log/CNNIQA_QADS.log &
-nohup python train_test_IQA.py --dataset CVIU --netFile CNNIQA --gpuid 2 > ./log/CNNIQA_CVIU.log &
-nohup python train_test_IQA.py --dataset Waterloo --netFile JCSAN --gpuid 0 > ./log/JCSAN_Waterloo.log &
-nohup python train_test_IQA.py --dataset QADS --netFile JCSAN --gpuid 1 > ./log/JCSAN_QADS.log &
-nohup python train_test_IQA.py --dataset CVIU --netFile JCSAN --gpuid 0 > ./log/JCSAN_CVIU.log &
-nohup python train_test_IQA.py --dataset Waterloo --netFile DeepSRQ --gpuid 2 > ./log/DeepSRQ_Waterloo.log &
-nohup python train_test_IQA.py --dataset QADS --netFile DeepSRQ --gpuid 2 > ./log/DeepSRQ_QADS.log &
-nohup python train_test_IQA.py --dataset CVIU --netFile DeepSRQ --gpuid 2 > ./log/DeepSRQ_CVIU.log &
