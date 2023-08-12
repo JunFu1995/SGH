@@ -8,7 +8,8 @@
 
 ## TODO
 - [x] ~~Code release~~
-- [ ] Upload datasets 
+- [x] ~~Upload datasets~~ 
+- [ ] clean the code
 
 
 ## Introduction
@@ -22,9 +23,18 @@
 * `engine.py`: training and test engine
 * `train_test_IQA.py`: setup training and test 
 
-
-
 ## Train and Test
+First, download datasets used in this paper from [here](https://drive.google.com/drive/folders/13OhtsoWcLZL64BXoAH4NmCCCFgBXywDH?usp=sharing). 
+
+Second, change the dataset path in the `train_test_IQA.py` as follows:
+```python
+    path = {
+        'QADS': 'yourpath/QADS/',
+        'CVIU': 'yourpath/CVIU/',
+        'Waterloo': 'yourpath/Waterloo/',
+    } 
+```
+Third, train and test the model using the following command:
 ```
 python train_test_IQA.py --dataset xxx --netFile xxx --gpuid x --batch_size 64
 ```
